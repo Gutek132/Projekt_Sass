@@ -1,0 +1,36 @@
+.info {
+    width: 100%;
+    height: auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+    margin-top: 2px;
+}
+
+.info-top {
+    width: 100%;
+
+    #big {
+        font-size: $h1-size;
+        text-align: center;
+        font-style: italic;
+    }
+
+    p {
+        font-size: $h3-size;
+        text-align: center;
+        display: block;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        margin: 0 auto;
+        width: 50%;
+        margin-top: 10px;
+        background-color: $color1;
+        color: black;
+        border-radius: 20px;
+        padding: 10px;
+    }
+}
